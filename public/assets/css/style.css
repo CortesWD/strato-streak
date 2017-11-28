@@ -250,6 +250,10 @@
     line-height: 1;
     margin: 0;
 }
+
+.text-blue{
+    color:#204691 !important;
+}
 /* 4. About area */
 
 .about-text h4 {
@@ -6314,4 +6318,17 @@ p.checkout-coupon input[type="submit"] {
 }
 .slider-minim-3 {
   padding: 300px 0 280px;
+}
+
+#instafeed{
+    margin: 0 auto;
+    max-width: 110rem;
+}
+
+#instafeed .col-sm-3{
+    margin:1.4rem auto;
+}
+
+#instafeed .col-sm-3 img{
+    width: 100%;
 }
