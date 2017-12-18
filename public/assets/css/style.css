@@ -1855,7 +1855,7 @@ form#searchbox input::-webkit-placeholder {
 .absolute-bar {
 	position: absolute;
 	width: 100%;
-	z-index: 999999;
+	z-index: 999;
 	transition: all 0.5s ease 0s;
 	left: -1px;
 	top: 1px;
@@ -6331,4 +6331,69 @@ p.checkout-coupon input[type="submit"] {
 
 #instafeed .col-sm-3 img{
     width: 100%;
+}
+
+.row-services{
+    text-align: center;
+}
+.row-services .single-service{
+
+    padding-right: 0;
+}
+
+.btn-modal{
+    background: #204691 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 20px 0 0;
+    padding: 10px 5px;
+    height: auto;
+    display: block;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.btn-modal:hover{
+    background-color:#235fd3 ;
+    color:white;
+}
+
+.modal-header{
+    border-bottom:none;
+}
+.modal-header .close{
+    background-color: #686868;
+    color:white;
+    float: none;
+    position: absolute;
+    z-index: 10;
+    opacity: 0.99;
+    top: 0rem;
+    right: 0rem;
+    height: 5rem;
+    width: 5rem;
+    padding:1rem 2rem;
+    text-align: center;
+    font-size: 3rem;
+
+}
+.modal-content{
+    border:none;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+}
+.modal-title{
+    color:#204691;
+}
+
+.modal .img-responsive{
+    display: block;
+    margin:0 auto;
 }

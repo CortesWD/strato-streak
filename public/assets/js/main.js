@@ -63,12 +63,12 @@
     
     
     /* magnificPopup image popup */
-    $('.img-poppu').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    // $('.img-poppu').magnificPopup({
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    // });
     
     
     /* counterUp */
@@ -445,6 +445,7 @@
         get: 'user',
         userId: '5659441077',
         target: "instafeed",
+        limit: 8,
         clientId: '6b5932f399b94ed6ace21629e526c114',
         accessToken: '5659441077.6b5932f.605664cf24e9421990ec36f6424995d1',
         template: '<div class="col-sm-3"><a href="{{link}}" target="_blank"><img alt="{{caption}}" title="{{caption}}" class="img-responsive" src="{{image}}" /></a></div>'
